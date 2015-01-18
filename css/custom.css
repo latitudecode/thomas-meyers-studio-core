@@ -84,7 +84,9 @@ header {
 /* pushdown */
 
 .pushdown {
-
+	height: 395px;
+	width: 100%;
+	border-bottom: 1px solid #f1dfd2;
 }
 
 .pushup {
@@ -140,7 +142,7 @@ header {
 
 /* footer */
 
-.footer-section {
+footer {
 	height: 300px;
 	width: 100%;
 }
