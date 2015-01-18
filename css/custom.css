@@ -1,4 +1,4 @@
-/* fonts */
+/* fonts and stlying */
 
 p, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Nunito', sans-serif;
@@ -31,6 +31,9 @@ h6 {
 	
 }
 
+.liner-halfsies {}
+.liner-quartsies {}
+.liner-quadsies {}
 
 /* navigtaion */
 
@@ -40,6 +43,22 @@ nav a {
 	font-weight: 300;
 	color: #8c4f50;
 	display: inline;
+}
+
+.primary-nav {
+
+}
+
+.nav-links {
+
+}
+
+.logo {
+
+}
+
+.logo-text {
+
 }
 
 a:link {
@@ -60,5 +79,115 @@ header {
 	width: 100%;
 	height: 160px;
 }
+
+/* pushdown */
+
+.pushdown-section {
+
+}
+
+.pushdown {
+
+}
+
+.pushup {
+
+}
+
+.push-exit {
+
+}
+
+.push-content {
+
+}
+
+/* slider */
+
+.slider-section {
+
+}
+
+.home-slider {
+
+}
+
+.slider-buttons {
+
+}
+
+.slide {
+
+}
+
+/* sections */
+
+.cat-section {
+
+}
+
+.secondary-nav {
+
+}
+
+.cat-entry {
+
+}
+
+.cat-img {
+
+}
+
+/* footer */
+
+.footer-section {
+
+}
+
+.signup-man {
+
+}
+
+.signup-field {
+
+}
+
+.signup-button {
+
+}
+
+.rightz {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
