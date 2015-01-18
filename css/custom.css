@@ -46,7 +46,8 @@ nav a {
 }
 
 .primary-nav {
-
+	height: 160px;
+	width: 100%;
 }
 
 .nav-links {
@@ -109,7 +110,8 @@ header {
 }
 
 .home-slider {
-
+	height: 800px;
+	width: 100%;
 }
 
 .slider-buttons {
@@ -123,11 +125,13 @@ header {
 /* sections */
 
 .cat-section {
-
+	height: 750px;
+	width: 100%;
 }
 
 .secondary-nav {
-
+	height: 110px;
+	width: 50%;
 }
 
 .cat-entry {
@@ -141,7 +145,8 @@ header {
 /* footer */
 
 .footer-section {
-
+	height: 300px;
+	width: 100%;
 }
 
 .signup-man {
