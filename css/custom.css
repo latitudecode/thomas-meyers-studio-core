@@ -39,7 +39,7 @@ h6 {
 
 header {
 	width: 100%;
-	height: 160px;
+	height: 130px;
 	border-bottom: 1px solid #f1dfd2;	
 }
 
@@ -54,7 +54,7 @@ nav a {
 }
 
 .primary-nav {
-	height: 160px;
+	height: 140px;
 	width: 100%;
 }
 
@@ -85,9 +85,10 @@ a:hover {
 /* pushdown */
 
 .pushdown {
-	height: 395px;
+	height: 280px;
 	width: 100%;
 	border-bottom: 1px solid #f1dfd2;
+	display: ndone;
 }
 
 .pushup {
@@ -107,7 +108,7 @@ a:hover {
 }
 
 .title {
-	
+
 }
 
 /* slider */
@@ -117,7 +118,7 @@ a:hover {
 }
 
 .home-slider {
-	height: 600px;
+	height: 550px;
 	width: 100%;
 	border-bottom: 1px solid #f1dfd2;	
 }
