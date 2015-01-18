@@ -88,7 +88,7 @@ a:hover {
 	height: 280px;
 	width: 100%;
 	border-bottom: 1px solid #f1dfd2;
-	display: ndone;
+	display: none;
 }
 
 .pushup {
@@ -145,6 +145,15 @@ a:hover {
 	border-bottom: 1px solid #f1dfd2;	
 }
 
+.media .fl, .media .fr {
+	width: 50%;
+	height: 100%;
+}
+
+.media .fl {
+	border-right: 1px solid #f1dfd2;
+}
+
 .cat-entry {
 
 }
@@ -176,29 +185,6 @@ footer {
 .rightz {
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
