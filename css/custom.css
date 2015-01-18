@@ -148,8 +148,12 @@ a:hover {
 }
 
 .media .fl, .media .fr {
-	width: 50%;
+	width: 46%;
 	height: 100%;
+}
+
+.media {
+	height: 88%;
 }
 
 .media .fl {
@@ -157,7 +161,8 @@ a:hover {
 }
 
 .cat-entry {
-
+	bottom: 35px;
+	position: relative;
 }
 
 .cat-img {
