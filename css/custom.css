@@ -177,6 +177,13 @@ a:hover {
 	border-right: 1px solid #f1dfd2;
 }
 
+.media-selection h2 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+
 .media .fl, .media .fr {
 	width: 46%;
 	height: 88%;
