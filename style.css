@@ -31,3 +31,9 @@ nav a {
 .fr {
 	float: right;
 }
+
+/* navigation */
+
+nav ul li {
+	display: inline;
+}

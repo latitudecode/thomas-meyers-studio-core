@@ -40,7 +40,8 @@ h6 {
 header {
 	width: 100%;
 	height: 130px;
-	border-bottom: 1px solid #f1dfd2;	
+	border-bottom: 1px solid #f1dfd2;
+	position: relative;
 }
 
 /* navigtaion */
@@ -53,21 +54,41 @@ nav a {
 	display: inline;
 }
 
+nav ul li {
+	padding: 10px;
+}
+
 .primary-nav {
 	height: 140px;
 	width: 100%;
 }
 
 .nav-links {
-
+	padding: 33px 20px 0px 0px;
 }
 
 .logo {
 
 }
 
-.logo-text {
+.logo img {
+	position: absolute;
+	top: 35px;
+}
 
+.logo ul li {
+	display: inline;
+}
+
+.logo-text {
+	font-size: 26px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	color: #89715e;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50px;
+	left: 120px;
 }
 
 a:link {
