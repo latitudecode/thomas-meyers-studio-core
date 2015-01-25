@@ -199,7 +199,7 @@ a:hover {
 }
 
 .cat-img {
-
+	padding: 90px 30px 0px 60px;
 }
 
 /* footer */
@@ -211,7 +211,7 @@ footer {
 }
 
 .signup-man {
-
+	padding: 50px 30px 60px 100px;
 }
 
 .signup-field {
@@ -223,7 +223,7 @@ footer {
 }
 
 .rightz {
-
+	padding: 25px 90px 0px 0px;
 }
 
 
