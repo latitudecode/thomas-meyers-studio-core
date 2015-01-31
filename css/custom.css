@@ -228,6 +228,7 @@ a:hover {
 .product {}
 .product i {}
 .product-menu {}
+.product-meun ul li { display: inline; }
 .previous i {}
 .next i {}
 .product-title i {}
