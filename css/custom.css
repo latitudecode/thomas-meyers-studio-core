@@ -227,10 +227,19 @@ a:hover {
 	padding: 90px 30px 0px 60px;
 }
 
+/* section - category list */
+
+.category-list {
+	height: 465px;
+}
+
 /* section - product detail */
 
-.main-content { 
+.product-detail { 
 	height: 790px; 
+}
+
+.main-content {
 	width: 100%; 
 	margin: 0 auto;
 	position: relative; 
@@ -292,7 +301,6 @@ li.grid-block {
 	bottom: 215px;
 	right: 25px;
 }
-
 
 /* footer */
 
