@@ -59,7 +59,7 @@ nav ul li {
 }
 
 .primary-nav {
-	height: 140px;
+	height: 130px;
 	width: 100%;
 }
 
@@ -102,6 +102,26 @@ a:active {
 a:hover {
 	color: #c0b08a;
 }
+
+/* secondary navigation */
+
+.sub-nav {
+	width: 100%;
+	background-color: #fbfaf8;
+	height: 70px;
+	border-bottom: 1px solid #e8e4db;
+	border-top: 1px solid #e8e4db;
+}
+
+.sub-nav .nav-links {
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+}
+
+.sub-nav-links {
+	padding: 8px 25px 0px 40px;
+}
+
 
 /* pushdown */
 
