@@ -77,6 +77,10 @@ nav ul li {
 	width: 100%;
 }
 
+.primary-nav .nav-links a {
+	font-size: 19px;
+}
+
 .nav-links {
 	padding: 33px 20px 0px 0px;
 }
@@ -86,7 +90,7 @@ margin-top: 16px;
 }
 
 .logo ul {
-margin-left: 35px;
+margin-left: 44px;
 }
 
 .logo img {
