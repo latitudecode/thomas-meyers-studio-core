@@ -39,6 +39,12 @@ i.fa {
 	color: grey;
 }
 
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+
 .liner-halfsies {}
 .liner-quartsies {}
 .liner-quadsies {}
@@ -73,6 +79,10 @@ nav ul li {
 
 .nav-links {
 	padding: 33px 20px 0px 0px;
+}
+
+ul.nav-links, ul.sub-nav-links {
+margin-top: 16px;
 }
 
 .logo {
@@ -130,6 +140,11 @@ a:hover {
 	padding: 8px 25px 0px 40px;
 }
 
+/* product menu */
+
+.product-menu ul {
+	margin-top: 16px;
+}
 
 /* pushdown */
 
@@ -295,7 +310,7 @@ img.land-sml, img.port-sml  {
 }
 
 .main-content {
-	width: 90%; 
+	width: 100%; 
 	margin: 0 auto;
 	position: relative; 
 	top: 140px;
@@ -311,6 +326,12 @@ img.land-sml, img.port-sml  {
 .product-section { 
 	text-align: center;
 	padding-bottom: 89px;
+}
+
+.product-detail-section { 
+	text-align: center;
+	padding-bottom: 89px;
+	border-bottom: 1px solid #f1dfd2;
 }
 
 .product {}
