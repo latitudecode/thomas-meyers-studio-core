@@ -239,7 +239,8 @@ a:hover {
 
 .product-section { 
 	text-align: center;
-	padding-bottom: 90px;
+	padding-bottom: 89px;
+	border-bottom: 1px solid #f1dfd2;
 }
 
 .product {}
@@ -254,14 +255,14 @@ a:hover {
 }
 
 li.previous { 
-	padding: 23px 20px 15px 20px; 
+	padding: 22px 20px 15px 20px; 
 	border: 1px solid #f1dfd2;
 	left: 5px;
 	position: relative;
 }
 
 li.next { 
-	padding: 23px 20px 15px 20px; 
+	padding: 22px 20px 15px 20px; 
 	border: 1px solid #f1dfd2;
 	position: relative;
 	right: 10px;
@@ -269,12 +270,12 @@ li.next {
 
 li.product-title { 
 	border: 1px solid #f1dfd2; 
-	padding: 19px 19px 14px 20px;
+	padding: 18px 19px 14px 20px;
 	padding-right: 50%;
 }
 
 li.grid-block { 
-	padding: 23px 20px 15px 20px; 
+	padding: 22px 20px 15px 20px; 
 	border: 1px solid #f1dfd2;
 	position: relative;
 	right: 5px;
