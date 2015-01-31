@@ -85,8 +85,8 @@ ul.nav-links, ul.sub-nav-links {
 margin-top: 16px;
 }
 
-.logo {
-
+.logo ul {
+margin-left: 35px;
 }
 
 .logo img {
