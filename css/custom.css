@@ -205,7 +205,11 @@ a:hover {
 
 .media-selection h2 {
 	text-align: center;
-	margin-top: 22px;
+	margin-top: 32px;
+}
+
+ul.media-selection {
+	margin: 0px;
 }
 
 .media .fl, .media .fr {
