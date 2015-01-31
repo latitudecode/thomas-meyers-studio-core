@@ -234,7 +234,7 @@ a:hover {
 }
 
 .category-list {
-	height: 900px;
+	height: 1600px; /* figure out how to make this auto */
 	text-align: center;
 }
 
@@ -243,11 +243,13 @@ a:hover {
 }
 
 img.land-lrg {
-max-width: 400px;
+	max-width: 400px;
+	margin: 0px 10px 30px 10px;
 }
 
 img.land-sml, img.port-sml  {
 	max-width: 240px;
+	margin: 0px 10px 30px 10px;
 }
 
 
