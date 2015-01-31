@@ -6,6 +6,9 @@ p, h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+p {
+	line-height: 28px;
+}
 
 h1 {
 	font-size: 29px;
@@ -230,21 +233,41 @@ a:hover {
 /* section - category list */
 
 .category-intro {
-	height: 350px; /* change this to larger later */
+	height: 380px; /* change this to larger later */
+	background-image: url(file:///Users/sambakersalmon/Documents/web-developer/tom-meyers-studio/core-markup/thomas-meyers-studio-core/images/collage-bg.jpg);
+	top: 55px;
+	position: relative;
+	border-bottom: 1px solid #f1dfd2;
+}
+
+.intro {
+	width: 50%;
+	margin-left: 50px;
+	position: relative;
+	top: 30px;
+}
+
+.intro p {
+	font-size: 14px;
 }
 
 .category-list {
-	height: 1600px; /* figure out how to make this auto */
+	height: 1500px; /* figure out how to make this auto */
 	text-align: center;
 }
 
 .category-list .row .col-md-3 {
 	border-right: 1px solid #f1dfd2;
+	padding-top: 50px;
+}
+
+.category-list .row .col-md-6 {
+	padding-top: 50px;
 }
 
 img.land-lrg {
 	max-width: 400px;
-	margin: 0px 10px 30px 10px;
+	margin: 0px 10px 50px 10px;
 }
 
 img.land-sml, img.port-sml  {
@@ -263,7 +286,7 @@ img.land-sml, img.port-sml  {
 	width: 90%; 
 	margin: 0 auto;
 	position: relative; 
-	top: 140px;
+	top: 55px;
 }
 
 .product-section { 
