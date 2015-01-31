@@ -229,10 +229,27 @@ a:hover {
 
 /* section - category list */
 
+.category-intro {
+	height: 65px; /* change this to larger later */
+}
+
 .category-list {
-	height: 465px;
+	height: 900px;
 	text-align: center;
 }
+
+.category-list .row .col-md-3 {
+	border-right: 1px solid #f1dfd2;
+}
+
+img.land-lrg {
+max-width: 400px;
+}
+
+img.land-sml, img.port-sml  {
+	max-width: 240px;
+}
+
 
 /* section - product detail */
 
