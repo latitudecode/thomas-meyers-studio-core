@@ -287,6 +287,13 @@ li.grid-block {
 	font-weight: lighter;
 }
 
+.fa-expand {
+	position: absolute;
+	bottom: 215px;
+	right: 25px;
+}
+
+
 /* footer */
 
 footer {
