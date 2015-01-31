@@ -31,6 +31,11 @@ h6 {
 	
 }
 
+i.fa {
+	font-size: 21px;
+	color: grey;
+}
+
 .liner-halfsies {}
 .liner-quartsies {}
 .liner-quadsies {}
@@ -224,24 +229,70 @@ a:hover {
 
 /* section - product detail */
 
-.main-content { height: 725px; }
-.product-section {}
+.main-content { 
+	height: 790px; 
+	width: 100%; 
+	margin: 0 auto;
+	position: relative; 
+	top: 140px;
+}
+
+.product-section { 
+	text-align: center;
+	padding-bottom: 90px;
+}
+
 .product {}
 .product i {}
-.product-menu { display: inline; }
-.product-meun ul li { display: inline; }
-.previous i {}
-.next i {}
-.product-title i {}
-.grid-block i {}
 
+.product-menu { 
+	text-align: center;
+}
+
+.product-menu li { 
+	display: inline; 
+}
+
+li.previous { 
+	padding: 23px 20px 15px 20px; 
+	border: 1px solid #f1dfd2;
+	left: 5px;
+	position: relative;
+}
+
+li.next { 
+	padding: 23px 20px 15px 20px; 
+	border: 1px solid #f1dfd2;
+	position: relative;
+	right: 10px;
+}
+
+li.product-title { 
+	border: 1px solid #f1dfd2; 
+	padding: 19px 19px 14px 20px;
+	padding-right: 50%;
+}
+
+li.grid-block { 
+	padding: 23px 20px 15px 20px; 
+	border: 1px solid #f1dfd2;
+	position: relative;
+	right: 5px;
+}
+
+.product-title { 
+	color: #8c4f50;
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+}
 
 /* footer */
 
 footer {
 	height: 200px;
 	width: 100%;
-	border-bottom: 1px solid #f1dfd2;	
+	border-bottom: 1px solid #f1dfd2;
+	border-top: 1px solid #f1dfd2;	
 }
 
 .signup-man {
