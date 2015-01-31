@@ -203,7 +203,6 @@ a:hover {
 .cat-section {
 	height: 750px;
 	width: 100%;
-	border-bottom: 1px solid #f1dfd2;	
 }
 
 .secondary-nav {
@@ -252,7 +251,7 @@ ul.media-selection {
 /* section - category selection */
 
 .product-section p {
-	padding: 10px 20px 0px 20px;
+	padding: 10px 45px 0px 55px;
 }
 
 img.medium {
@@ -298,14 +297,20 @@ img.medium {
 
 img.land-lrg {
 	max-width: 400px;
-	margin: 0px 10px 50px 10px;
+	margin: 0px 10px 60px 10px;
 }
 
 img.land-sml, img.port-sml  {
 	max-width: 240px;
-	margin: 0px 10px 30px 10px;
 }
 
+img.land-sml {
+	margin: 0px 10px 50px 10px;
+}
+
+img.port-sml {
+	margin: 0px 10px 40px 10px;
+}
 
 /* section - product detail */
 
