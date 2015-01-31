@@ -167,18 +167,16 @@ a:hover {
 }
 
 .home-slider {
-	height: 605px;
 	width: 100%;
 	border-bottom: 1px solid #f1dfd2;	
 }
 
 .slider-buttons {
-
+	margin: 0px;
 }
 
 .slide {
 	position: relative;
-	bottom: 16px;
 }
 
 /* sections */
@@ -190,12 +188,10 @@ a:hover {
 }
 
 .secondary-nav {
-	height: 110px;
+	height: 100px;
 	width: 100%;
-	bottom: 17px;
 	position: relative;
 	border-bottom: 1px solid #f1dfd2;
-	border-top: 1px solid #f1dfd2;
 }
 
 .media-selection .fl, .media-selection .fr {
