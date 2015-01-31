@@ -186,7 +186,8 @@ a:hover {
 	width: 100%;
 	bottom: 17px;
 	position: relative;
-	border-bottom: 1px solid #f1dfd2;	
+	border-bottom: 1px solid #f1dfd2;
+	border-top: 1px solid #f1dfd2;
 }
 
 .media-selection .fl, .media-selection .fr {
@@ -200,7 +201,7 @@ a:hover {
 
 .media-selection h2 {
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 22px;
 }
 
 .media .fl, .media .fr {
@@ -223,7 +224,7 @@ a:hover {
 
 /* section - product detail */
 
-.main-content {}
+.main-content { height: 725px; }
 .product-section {}
 .product {}
 .product i {}
