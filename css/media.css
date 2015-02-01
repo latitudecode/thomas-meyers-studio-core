@@ -4,6 +4,25 @@
  * Things from me @sambakessalmon
  */
 
+/* ===================== tablet below 1439 =============================== */
+
+
+@media (max-width : 1439px) {
+
+}
+
+/* ===================== tablet below 1300 =============================== */
+
+@media (max-width : 1300px) {
+
+}
+
+/* ===================== tablet below 1240px =============================== */
+
+@media (max-width : 1240px) {
+
+}  
+
 /* ===================== tablet below 1200px =============================== */
 
 @media (min-width: 1200px) {
@@ -13,6 +32,24 @@
 /* =============================== mobiles below 1200px =================== */
 
 @media (min-width: 1200px) {
+
+}
+
+/* =============================== mobiles below 1099px =================== */
+
+@media (max-width : 1099px) {
+
+}
+
+/* =============================== mobiles below 1024px =================== */
+
+@media (max-width : 1024px) {
+
+}
+
+/* =============================== mobiles below 940px =================== */
+
+@media (max-width : 940px) {
 
 }
 
@@ -47,6 +84,24 @@
 
 }
 
+/* =============================== mobiles between 800px and 854px =================== */
+
+@media only screen and (min-width : 800px) and (max-width : 854px) { 
+  
+}
+
+/* =============================== mobiles between 855px and 960px =================== */
+
+@media only screen and (min-width : 855px) and (max-width : 960px) { 
+  
+}
+
+/* =============================== mobiles between 961px and 1099px =================== */
+
+@media only screen and (min-width : 961px) and (max-width : 1099px) { 
+  
+}
+
 /* ===================== tablet 979px to 768px =============================== */
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -65,9 +120,22 @@
 
 }
 
+/* ===================== Mobiles between 640px and 720px =============================== */
+
+
+@media (min-width : 640px) and (max-width : 720px) { 
+
+}
+
+
 /* ===================== Mobiles below 480px =============================== */
 
 @media (max-width: 480px) {
 
 }
 
+/* ===================== Mobiles below 399px =============================== */
+
+@media only screen and (max-width : 399px) {
+
+}
