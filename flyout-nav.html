@@ -15,10 +15,8 @@
 <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
 <!-- make it responsive -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- foundation script -->
-<script type="text/javascript" src="/js/modernizr.js"></script>
-<script type="text/javascript" src="/js/jquery.js"></script>
-<script type="text/javascript" src="/js/foundation.min.js"></script>
+
+
 <!-- hover action -->
 <link rel="stylesheet" type="text/css" href="css/hover.css" />	
 </head>
@@ -60,16 +58,30 @@
 			</ul>
 		</nav>
 		<!-- end to main navigation and logo -->
-		<!-- start to sub navigation -->
-		<nav class="sub-nav">
-			<ul class="sub-nav-links">
-				<li><a href="#">collage</a></li>
-				<li><a href="#">mosaic</a></li>
-				<li><a href="#">collaboration</a></li>
-			</ul>
-		</nav>
-		<!-- end to sub navigation -->
 	</header>
+
+	<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+
+    <a class="left-off-canvas-toggle" href="#" >Menu</a>
+
+    <!-- Off Canvas Menu -->
+    <aside class="left-off-canvas-menu">
+        <!-- whatever you want goes here -->
+        <ul>
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#">Item 1</a></li>
+
+        </ul>
+    </aside>
+
+  <!-- close the off-canvas menu -->
+  <a class="exit-off-canvas"></a>
+
+  </div>  
+</div>
 
 	<div class="clear"></div>
 	<!-- end of the header and navigation -->
@@ -81,15 +93,6 @@
 	
 					
 	
-					<div class="col-md-6 grid">  <!-- first column for portait work -->
-						<figure class="effect-hover"> <!-- WHITE OVERALY -->
-							<img src="images/mosaic.png" alt="img15"/> 
-								<figcaption>
-									<p>View Work</p>
-								</figcaption>			
-						</figure> 
-					</div>	<!-- medium entry -->
-
 		
 				</div> <!-- end columns of mediums -->
 		</div> <!-- end product wrap -->
