@@ -1,7 +1,7 @@
 
-/* Common style */
+/* row hover effect style */
 
-.grid figure {
+.row-effect figure {
 	position: relative;
 	float: left;
 	overflow: hidden;
@@ -12,7 +12,7 @@
 	cursor: pointer;
 }
 
-.grid figure img {
+.row-effect figure img {
 	position: relative;
 	display: block;
 	min-height: 100%;
@@ -20,7 +20,7 @@
 	opacity: 1;
 }
 
-.grid figure figcaption {
+.row-effect figure figcaption {
 	padding: 2em;
 	color: #fff;
 	text-transform: uppercase;
@@ -29,13 +29,13 @@
 	backface-visibility: hidden;
 }
 
-.grid figure figcaption::before,
-.grid figure figcaption::after {
+.row-effect figure figcaption::before,
+.row-effect figure figcaption::after {
 	pointer-events: none;
 }
 
-.grid figure figcaption,
-.grid figure figcaption > a {
+.row-effect figure figcaption,
+.row-effect figure figcaption > a {
 	position: absolute;
 	top: 35%;
 	left: 0;
@@ -44,7 +44,7 @@
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
+.row-effect figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
 	white-space: nowrap;
@@ -55,12 +55,12 @@
 
 
 
-.grid figure h2,
-.grid figure p {
+.row-effect figure h2,
+.row-effect figure p {
 	margin: 0;
 }
 
-.grid figure p {
+.row-effect figure p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
 }
