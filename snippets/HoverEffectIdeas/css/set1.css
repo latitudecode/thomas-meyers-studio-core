@@ -1,0 +1,70 @@
+/* Individual effects */
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+
+
+
+
+figure.effect-chico img {
+	-webkit-transition: opacity 0.65s, -webkit-transform 0.65s;
+	transition: opacity 0.65s, transform 0.65s;
+	/*-webkit-transform: scale(1.12);
+	transform: scale(1.12); */
+}
+
+
+figure.effect-chico:hover img {
+	opacity: 0.3;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+
+figure.effect-chico figcaption::before,
+figure.effect-chico p {
+	opacity: 0;
+	-webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
+	transition: opacity 0.45s, transform 0.45s;
+}
+
+
+figure.effect-chico:hover figcaption::before,
+figure.effect-chico:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+
+/** bring back if I want the text to scale 
+
+	figure.effect-chico p {
+		margin: 0 auto;
+		-webkit-transform: scale(1.5);
+		transform: scale(1.5);
+	} 
+
+**/
+
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 1em 0 4em;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
+
+@media screen and (max-width: 50em) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+	}
+}
