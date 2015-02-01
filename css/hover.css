@@ -1,5 +1,9 @@
 /* Individual effects */
 
+figcaption p {
+	color: #fff;
+}
+
 figure.effect-hover {
 	z-index: auto;
 	overflow: visible;
