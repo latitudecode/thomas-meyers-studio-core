@@ -1,4 +1,4 @@
-/* Individual effects */
+/* Image hover effects */
 
 figcaption p {
 	color: #fff;
@@ -133,7 +133,7 @@ figure.effect-hover:hover p {
 	position: absolute;
 	top: 35%;
 	left: 0;
-	width: 85%;
+	width: 79%;
 }
 
 /* Anchor will cover the whole item by default */
