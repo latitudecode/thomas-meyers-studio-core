@@ -985,7 +985,7 @@ figure.effect-zoe figcaption {
 	bottom: 0;
 	padding: 1em;
 	height: 3.75em;
-	background: #fff;
+	/* background: #fff; */
 	color: #3c4a50;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -1010,8 +1010,9 @@ figure.effect-zoe:hover p.icon-links a:focus {
 
 figure.effect-zoe p.description {
 	position: absolute;
-	bottom: 8em;
-	padding: 2em;
+	bottom: 9em;
+	left: 37%;
+	/* padding: 2em; */
 	color: #fff;
 	text-transform: none;
 	font-size: 90%;
