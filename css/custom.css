@@ -137,13 +137,35 @@ figure.effect-zoe figcaption {
 	bottom: 0;
 	padding: 1em;
 	height: 3.75em;
-	/* background: #fff; */
+	background: #fff;
 	color: #3c4a50;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
 }
+
+/*
+.effect-zoe {
+  transition: all 0.5s ease;
+  background:rgba(255,0,0,0.5);
+  padding: 10px;
+}
+.effect-zoe:hover {
+  background:rgba(255,0,0,1);
+  padding: 20px;
+}
+*/
+
+figure.effect-zoe {
+	background: red;
+}
+
+
+figure.effect-zoe:hover img {
+	opacity: 0.6;
+}
+
 
 figure.effect-zoe h2 {
 	float: left;
@@ -162,12 +184,12 @@ figure.effect-zoe:hover p.icon-links a:focus {
 
 figure.effect-zoe p.description {
 	position: absolute;
-	bottom: 9em;
-	left: 37%;
+	bottom: 22em;
+	left: 26%;
 	/* padding: 2em; */
 	color: #fff;
 	text-transform: none;
-	font-size: 90%;
+	font-size: 18px;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
