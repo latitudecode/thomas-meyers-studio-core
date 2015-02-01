@@ -9,7 +9,6 @@
 figure.effect-steve {
 	z-index: auto;
 	overflow: visible;
-	background: #000;
 }
 
 figure.effect-steve:before,
