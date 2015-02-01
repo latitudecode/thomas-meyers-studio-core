@@ -137,8 +137,8 @@ figure.effect-zoe figcaption {
 	bottom: 0;
 	padding: 1em;
 	height: 3.75em;
-	background: #fff;
-	color: #3c4a50;
+	/* background: #fff; */
+	color: #fff;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
@@ -158,7 +158,7 @@ figure.effect-zoe figcaption {
 */
 
 figure.effect-zoe {
-	background: red;
+	background: none;
 }
 
 
@@ -173,7 +173,7 @@ figure.effect-zoe h2 {
 
 figure.effect-zoe p.icon-links a {
 	float: right;
-	color: #3c4a50;
+	color: #fff;
 	font-size: 1.4em;
 }
 
@@ -184,10 +184,10 @@ figure.effect-zoe:hover p.icon-links a:focus {
 
 figure.effect-zoe p.description {
 	position: absolute;
-	bottom: 22em;
+	bottom: 18em;
 	left: 26%;
 	/* padding: 2em; */
-	color: #fff;
+	color: #fff; 
 	text-transform: none;
 	font-size: 18px;
 	opacity: 0;
