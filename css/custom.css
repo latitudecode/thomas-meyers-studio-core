@@ -158,12 +158,18 @@ figure.effect-zoe figcaption {
 */
 
 figure.effect-zoe {
-	background: none;
+	background: green;
 }
 
 
+/*
 figure.effect-zoe:hover img {
 	opacity: 0.6;
+}
+*/
+
+figure.effect-zoe:hover {
+	background: red;
 }
 
 
