@@ -28,7 +28,7 @@
 	max-width: 480px;
 	max-height: 360px; */
 	width: 48%;
-	background: #3085a3;
+	background: #fff;
 	text-align: center;
 	cursor: pointer;
 }
@@ -38,7 +38,12 @@
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
-	opacity: 0.8;
+	opacity: 1;
+}
+
+figcaption p {
+top: 45%;
+position: relative;
 }
 
 .grid figure figcaption {
