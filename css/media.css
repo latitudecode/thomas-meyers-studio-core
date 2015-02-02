@@ -62,7 +62,7 @@
 
 @media (max-width : 920px) {
 
-	.primary-nav {
+	.primary-nav, .sub-nav {
 		display: none;
 	}
 
@@ -179,11 +179,7 @@
 
 @media (min-width: 50px) and (max-width: 580px) {
 
-	  li.product-title {
-	  	padding-right: 4%;
-	  	font-size: 14px;
-	  	padding: 20px 19px 15px 20px;
-	  }
+	/* navigation and footer and main content */
 
   	.logo {
 		width: 72%;
@@ -195,13 +191,25 @@
 		top: 25px;
 	}
 
+	/* product detail */
+
 	.product-detail {
-		height: 675px;
+		height: 636px;
 	}
 
 	.fa-expand {
-		bottom: 100px;
-		right: 22px;
+		bottom: 94px;
+		right: 20px;
+	}
+
+	.product-detail-section {
+		padding-bottom: 50px;
+	}
+
+	li.product-title {
+	  	padding-right: 4%;
+	  	font-size: 14px;
+	  	padding: 20px 19px 15px 20px;
 	}
 
 }
