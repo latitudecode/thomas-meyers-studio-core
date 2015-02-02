@@ -47,9 +47,13 @@
 
 }
 
-/* =============================== mobiles below 940px =================== */
+/* =============================== mobiles below 920px =================== */
 
-@media (max-width : 940px) {
+@media (max-width : 920px) {
+
+	.primary-nav {
+		display: none;
+	}
 
 }
 
