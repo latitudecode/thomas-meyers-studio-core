@@ -65,6 +65,16 @@
 		display: none;
 	}
 
+	li.logo-text {
+		font-size: 0px;
+	}
+
+	.logo {
+		width: 85%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
 }
 
 /* =============================== mobiles below 992px =================== */
