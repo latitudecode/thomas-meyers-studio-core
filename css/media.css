@@ -76,6 +76,20 @@
 		text-align: center;
 	}
 
+	/* product detail */
+
+	.main-content {
+		top: 75px;
+	}
+
+	.product-detail {
+		height: 725px;
+	}
+
+	.fa-expand {
+		bottom: 150px;
+	}
+
 }
 
 /* =============================== mobiles below 992px =================== */
@@ -119,6 +133,10 @@
 
 @media only screen and (min-width : 855px) and (max-width : 960px) { 
   
+  li.product-title {
+  	padding-right: 47%;
+  }
+
 }
 
 /* =============================== mobiles between 961px and 1099px =================== */
@@ -131,11 +149,67 @@
 
 @media (min-width: 768px) and (max-width: 979px) {
 
+  li.product-title {
+  	padding-right: 47%;
+  }
+
+}
+
+/* ===================== tablet 979px to 768px =============================== */
+
+@media (min-width: 640px) and (max-width: 768px) {
+
+  li.product-title {
+  	padding-right: 37%;
+  }
+
+}
+
+/* ===================== tablet 979px to 768px =============================== */
+
+@media (min-width: 480px) and (max-width: 640px) {
+
+  li.product-title {
+  	padding-right: 27%;
+  }
+
+}
+
+/* ===================== tablet 979px to 768px =============================== */
+
+@media (min-width: 50px) and (max-width: 580px) {
+
+	  li.product-title {
+	  	padding-right: 4%;
+	  	font-size: 14px;
+	  	padding: 20px 19px 15px 20px;
+	  }
+
+  	.logo {
+		width: 72%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.main-content {
+		top: 25px;
+	}
+
+	.product-detail {
+		height: 675px;
+	}
+
+	.fa-expand {
+		bottom: 100px;
+		right: 22px;
+	}
+
 }
 
 /* =============================== mobiles below 768 =================== */
 
 @media (min-width: 768px) {
+
 
 }
 
