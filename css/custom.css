@@ -532,7 +532,11 @@ img.port-sml {
 /* section - product detail */
 
 .product-detail { 
-	height: 900px; 
+	height: 790px; 
+}
+
+.product-details {
+	height: 900px;
 }
 
 .main-content {
