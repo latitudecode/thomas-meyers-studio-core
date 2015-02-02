@@ -9,9 +9,10 @@
 
 
 @media only screen and (min-width: 920px) and (max-width: 1439px) {
-	.flyout {
+	.flyout, .mail {
 		display: none;
 	}
+
 }
 
 /* ===================== tablet below 1439 =============================== */

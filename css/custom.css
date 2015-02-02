@@ -96,6 +96,13 @@ left: 40px;
 font-size: 25px;
 }
 
+.mail i {
+position: absolute;
+top: 52px;
+right: 40px;
+font-size: 25px;	
+}
+
 .logo ul {
 margin-left: 44px;
 }
