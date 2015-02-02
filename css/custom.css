@@ -89,6 +89,13 @@ ul.nav-links, ul.sub-nav-links {
 margin-top: 16px;
 }
 
+.flyout i {
+position: absolute;
+top: 52px;
+left: 40px;
+font-size: 25px;
+}
+
 .logo ul {
 margin-left: 44px;
 }
