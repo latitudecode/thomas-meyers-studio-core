@@ -149,7 +149,7 @@ html, body {
   position: absolute;
   overflow-x: hidden;
   overflow-y: auto;
-  background: #333333;
+  background: #4d4d4d;
   z-index: 1001;
   box-sizing: content-box;
   transition: transform 500ms ease 0s;

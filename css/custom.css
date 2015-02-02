@@ -89,19 +89,6 @@ ul.nav-links, ul.sub-nav-links {
 margin-top: 16px;
 }
 
-.flyout i {
-position: absolute;
-top: 52px;
-left: 40px;
-font-size: 25px;
-}
-
-.mail i {
-position: absolute;
-top: 52px;
-right: 40px;
-font-size: 25px;	
-}
 
 .logo ul {
 margin-left: 44px;
@@ -138,6 +125,51 @@ a:active {
 a:hover {
 	color: #c0b08a;
 }
+
+/* responsive  nav */
+
+.flyout i {
+	position: absolute;
+	top: 52px;
+	left: 40px;
+	font-size: 25px;
+	color: #c5b3a2;
+
+}
+
+.mail i {
+	position: absolute;
+	top: 52px;
+	right: 40px;
+	font-size: 25px;
+	color: #c5b3a2;	
+}
+
+.flyout ul li a {
+	color: #ffffff;
+	line-height: 45px;
+	position: relative;
+	left: 45px;
+	top: 105px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+	letter-spacing: .7px;
+}
+
+.move-right .flyout .fa-bars {
+display: none;
+}
+
+.exit-off-canvas i {
+	top: 14px;
+	left: 45%;
+}
+
+a.exit-off-canvas {
+	height: 55px;
+}
+
+/* end responsive nav */
 
 /* image hover */
 
