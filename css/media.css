@@ -238,6 +238,60 @@
 /* ===================== Mobiles below 480px =============================== */
 
 @media (max-width: 480px) {
+	
+	/* header and navigation */
+
+	header {
+		height: 65px;
+	}
+	.logo img {
+		top: 14px;
+		width: 40px;
+	}
+	.mail i, .flyout i {
+		top: 20px;
+	}
+
+	.flyout i {
+		left: 20px;
+	}
+
+	.mail i {
+		right: 20px;
+	}
+
+
+	/* product detail */
+
+	.product-detail-section img {
+		width: 260px;
+	}
+
+	li.product-title {
+		padding-right: 8%;
+		padding-left: 8%;
+	}
+
+	li.next {
+		right: 5px;
+	}
+
+	li.previous, li.next {
+		padding: 19px 18px 13px 18px;
+	}
+
+	.li.product-title {
+		padding: 18px 18px 6px 18px;
+	}
+
+	.product-menu ul {
+		position: relative;
+		left: 0px;
+	}
+
+	li.grid-block {
+		display: none;
+	}
 
 }
 
