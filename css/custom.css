@@ -576,10 +576,10 @@ img.port-sml {
 .product-menu { 
 	text-align: center;
 	border-bottom: 1px solid #f1dfd2;
-	border-top: 1px solid #f1dfd2;
+	/* border-top: 1px solid #f1dfd2; */
 	padding-bottom: 14px;
 	position: relative;
-	top: -55px;
+	/* top: -55px; */
 }
 
 .product-menu li { 
@@ -635,7 +635,7 @@ footer {
 }
 
 .signup-man {
-	padding: 15px 30px 60px 100px;
+	padding: 55px 30px 60px 100px;
 }
 
 .signup-field {
@@ -647,7 +647,7 @@ footer {
 }
 
 .rightz {
-	padding: 2px 90px 0px 0px;
+	padding: 55px 90px 0px 0px;
 }
 
 
