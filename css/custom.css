@@ -477,9 +477,10 @@ img.medium {
 margin-bottom: 25px;
 }
 
-ul.media {
+ul.media, ul.media li {
 	clear: both;
 }
+
 
 
 
