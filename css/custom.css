@@ -44,6 +44,11 @@ ul {
 	padding: 0px;
 }
 
+button {
+	background-color: #fff;
+	border: none;
+}
+
 
 .liner-halfsies {}
 .liner-quartsies {}
@@ -572,6 +577,8 @@ img.port-sml {
 	border-bottom: 1px solid #f1dfd2;
 	border-top: 1px solid #f1dfd2;
 	padding-bottom: 14px;
+	position: relative;
+	top: -55px;
 }
 
 .product-menu li { 
@@ -622,13 +629,12 @@ li.grid-block {
 footer {
 	height: 200px;
 	width: 100%;
-	border-bottom: 1px solid #f1dfd2;
 	border-top: 1px solid #f1dfd2;	
 
 }
 
 .signup-man {
-	padding: 80px 30px 60px 100px;
+	padding: 15px 30px 60px 100px;
 }
 
 .signup-field {
@@ -640,7 +646,7 @@ footer {
 }
 
 .rightz {
-	padding: 65px 90px 0px 0px;
+	padding: 2px 90px 0px 0px;
 }
 
 
