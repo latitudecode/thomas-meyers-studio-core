@@ -61,7 +61,7 @@ header {
 /* navigtaion */
 
 nav a {
-	font-size: 16px;
+	font-size: 14px;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
 	color: #8c4f50;
@@ -532,7 +532,7 @@ img.port-sml {
 /* section - product detail */
 
 .product-detail { 
-	height: 790px; 
+	height: 835px; 
 }
 
 .product-details {
@@ -543,7 +543,7 @@ img.port-sml {
 	width: 100%; 
 	margin: 0 auto;
 	position: relative; 
-	top: 140px;
+	top: 80px;
 }
 
 .main-columns {
@@ -560,7 +560,8 @@ img.port-sml {
 
 .product-detail-section { 
 	text-align: center;
-	padding-bottom: 89px;
+	padding-bottom: 149px;
+	padding-top: 45px;
 }
 
 .product {}
