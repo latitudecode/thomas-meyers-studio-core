@@ -499,7 +499,7 @@ img.medium {
 }
 
 .category-list {
-	height: 2000px; /* figure out how to make this auto */
+	height: 100%; /* figure out how to make this auto */
 	text-align: center;
 }
 
@@ -532,7 +532,7 @@ img.port-sml {
 /* section - product detail */
 
 .product-detail { 
-	height: 790px; 
+	height: 100%; 
 }
 
 .product-details {
@@ -569,6 +569,8 @@ img.port-sml {
 
 .product-menu { 
 	text-align: center;
+	position: relative;
+	top: 0px;
 }
 
 .product-menu li { 
@@ -620,7 +622,9 @@ footer {
 	height: 200px;
 	width: 100%;
 	border-bottom: 1px solid #f1dfd2;
-	border-top: 1px solid #f1dfd2;	
+	border-top: 1px solid #f1dfd2;
+	position: relative;
+	top: 85px;	
 }
 
 .signup-man {
