@@ -190,6 +190,10 @@
 		border-right: none;
 	}
 
+		.main-columns {
+		top: -50px;
+	}
+
 }
 
 /* =============================== mobiles between 961px and 1099px =================== */
@@ -218,6 +222,10 @@
 
   		.category-list .row .col-md-3 {
 		border-right: none;
+	}
+
+	.main-columns {
+		top: -50px;
 	}
 
 }
@@ -264,6 +272,10 @@
 
   		.category-list .row .col-md-3 {
 		border-right: none;
+	}
+
+		.main-columns {
+		top: -50px;
 	}
 
 
@@ -338,6 +350,10 @@
 
   		.category-list .row .col-md-3 {
 		border-right: none;
+	}
+
+		.main-columns {
+		top: -50px;
 	}
 
 
@@ -416,6 +432,10 @@
 		border-right: none;
 	}
 
+		.main-columns {
+		top: -50px;
+	}
+
 }
 
 /* ===================== Mobiles below 399px =============================== */
@@ -434,6 +454,10 @@
 
   	.category-list .row .col-md-3 {
 		border-right: none;
+	}
+
+		.main-columns {
+		top: -50px;
 	}
 
 }

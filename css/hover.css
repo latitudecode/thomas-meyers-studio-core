@@ -105,8 +105,8 @@ figure.effect-hover:hover p {
 .row-effect figure img {
 	position: relative;
 	display: block;
-	min-height: 100%;
-	max-width: 100%;
+min-height: 100%;
+	max-width: 100%; 
 	opacity: 1;
 }
 
@@ -127,7 +127,7 @@ figure.effect-hover:hover p {
 .row-effect figure figcaption,
 .row-effect figure figcaption > a {
 	position: absolute;
-	top: 35%;
+	top: 5%;
 	left: 0;
 	width: 79%;
 }
@@ -172,6 +172,6 @@ figure.effect-hover:hover p {
 	.row-effect figure {
 		display: inline-block;
 		float: none;
-		margin: 10px auto;
+		margin: 0px auto;
 	}
 }
