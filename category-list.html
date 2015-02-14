@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="css/custom.css" />
+<link rel="stylesheet" type="text/css" href="css/media.css" />
 <!-- google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic|Nunito:400,300,700' rel='stylesheet' type='text/css'>
 <!-- font awesome for icons -->
@@ -23,7 +24,8 @@
 <link rel="stylesheet" type="text/css" href="css/hover.css" />
 </head>
 <body>
-
+<div class="off-canvas-wrap" data-offcanvas> <!-- start flyout navigation -->
+  <div class="inner-wrap"> <!-- start flyout navigation content -->
 	<!-- end of the heading with most of the source files -->
 	<!-- start contact information pushd down goes here -->
 
@@ -43,6 +45,15 @@
 	<!-- start the header and navigation -->
 
 	<header>
+		
+		<div class="flyout">
+			 <a class="left-off-canvas-toggle" href="#" ><i class="fa fa-bars"></i></a> <!-- flyout menu icon -->
+		</div>
+
+		<div class="mail fr">
+			<a href="#"><i class="fa fa-envelope"></i></a>
+		</div>
+		
 		<!-- start to main navigation and logo -->
 		<div class="logo fl">
 			<ul>
