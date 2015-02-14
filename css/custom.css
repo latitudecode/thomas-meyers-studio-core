@@ -561,7 +561,6 @@ img.port-sml {
 .product-detail-section { 
 	text-align: center;
 	padding-bottom: 89px;
-	border-bottom: 1px solid #f1dfd2;
 }
 
 .product {}
@@ -569,6 +568,9 @@ img.port-sml {
 
 .product-menu { 
 	text-align: center;
+	border-bottom: 1px solid #f1dfd2;
+	border-top: 1px solid #f1dfd2;
+	padding-bottom: 14px;
 }
 
 .product-menu li { 
@@ -625,7 +627,7 @@ footer {
 }
 
 .signup-man {
-	padding: 50px 30px 60px 100px;
+	padding: 80px 30px 60px 100px;
 }
 
 .signup-field {
@@ -637,7 +639,7 @@ footer {
 }
 
 .rightz {
-	padding: 25px 90px 0px 0px;
+	padding: 65px 90px 0px 0px;
 }
 
 
