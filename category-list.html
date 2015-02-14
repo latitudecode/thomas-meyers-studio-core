@@ -16,12 +16,13 @@
 <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
 <!-- make it responsive -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- foundation css -->
+<link rel="stylesheet" type="text/css" href="css/foundation.css" />
 <!-- foundation script -->
-<script type="text/javascript" src="/js/modernizr.js"></script>
-<script type="text/javascript" src="/js/jquery.js"></script>
-<script type="text/javascript" src="/js/foundation.min.js"></script>
+<script src="js/foundation/foundation.offcanvas.js"></script>
+<script src="js/foundation/foundation.js"></script>
 <!-- hover action -->
-<link rel="stylesheet" type="text/css" href="css/hover.css" />
+<link rel="stylesheet" type="text/css" href="css/hover.css" />	
 </head>
 <body>
 <div class="off-canvas-wrap" data-offcanvas> <!-- start flyout navigation -->
@@ -239,5 +240,12 @@
 	</footer>
 
 </div>
+</div> <!-- end flyout navigation -->
+</div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 </body>
 </html>
