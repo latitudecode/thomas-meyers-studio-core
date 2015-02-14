@@ -434,32 +434,6 @@ right: 6%;
 	border-bottom: 1px solid #f1dfd2;
 }
 
-.media-selection .fl, .media-selection .fr {
-	width: 46%;
-	height: 100%;
-}
-
-.media-selection .fl {
-	border-right: 1px solid #f1dfd2;
-}
-
-.media-selection h2 {
-	text-align: center;
-	margin-top: 32px;
-}
-
-ul.media-selection {
-	margin: 0px;
-}
-
-.media .fl, .media .fr {
-	width: 46%;
-	height: 88%;
-}
-
-.media .fl {
-	border-right: 1px solid #f1dfd2;
-}
 
 .cat-entry {
 	bottom: 35px;
