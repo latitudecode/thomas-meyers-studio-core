@@ -420,12 +420,20 @@ right: 6%;
 	position: relative;
 }
 
-/* sections */
+li.title {
+text-align: center;
+padding: 20px;
+border-bottom: 1px solid black;
 
-.cat-section {
-	height: 750px;
-	width: 100%;
 }
+
+/* homepage */
+
+.media-entry-collage.fr, .media-entry-mosaic.fl {
+width: 50%;
+}
+
+
 
 .secondary-nav {
 	height: 100px;
@@ -435,14 +443,21 @@ right: 6%;
 }
 
 
-.cat-entry {
-	bottom: 35px;
-	position: relative;
+.cat-img {
+	width: 50%;
+	margin: 0 auto;
 }
 
-.cat-img {
-	padding: 90px 30px 0px 60px;
+.cat-img img {
+	margin: 0px auto;
+	width: 100%;
+	padding: 70px 0px;
 }
+
+.cat-section ul {
+	border-right: 1px solid;
+}
+
 
 /* section - category selection */
 
