@@ -42,7 +42,11 @@
 
 /* =============================== mobiles below 1200px =================== */
 
-@media (min-width: 1200px) {
+@media (min-width: 1124px) {
+
+.intro {
+	width: 60%;
+}
 
 }
 
@@ -50,17 +54,32 @@
 
 @media (max-width : 1099px) {
 
+/* cat list */
+
+.intro {
+	width: 65%;
+}
+
 }
 
 /* =============================== mobiles below 1024px =================== */
 
 @media (max-width : 1024px) {
 
+/* cat list */
+
+.intro {
+	width: 65%;
 }
+
+}
+
 
 /* =============================== mobiles below 920px =================== */
 
 @media (max-width : 920px) {
+
+	/* nav */
 
 	.primary-nav, .sub-nav {
 		display: none;
@@ -74,6 +93,16 @@
 		width: 85%;
 		margin: 0 auto;
 		text-align: center;
+	}
+
+	/* cat list */
+
+	.intro {
+		width: 75%;
+	}
+
+	.category-intro {
+		top: -15px;
 	}
 
 	/* product detail */
@@ -153,6 +182,12 @@
   	padding-right: 47%;
   }
 
+  /* cat list */
+
+  .category-intro {
+  	height: 410px;
+  }
+
 }
 
 /* ===================== tablet 979px to 768px =============================== */
@@ -163,6 +198,18 @@
   	padding-right: 37%;
   }
 
+  /* cat list */
+
+  .category-intro {
+  	height: 430px;
+  }
+
+  	/* cat list */
+
+	.intro {
+		width: 80%;
+	}
+
 }
 
 /* ===================== tablet 979px to 768px =============================== */
@@ -172,6 +219,12 @@
   li.product-title {
   	padding-right: 27%;
   }
+
+  	/* cat list */
+
+	.intro {
+		width: 90%;
+	}
 
 }
 
@@ -230,7 +283,13 @@
 /* ===================== Mobiles between 640px and 720px =============================== */
 
 
-@media (min-width : 640px) and (max-width : 720px) { 
+@media (min-width : 500px) and (max-width : 720px) { 
+
+	  /* cat list */
+  
+	  .category-intro {
+	  	height: 455px;
+	  }
 
 }
 
@@ -293,10 +352,22 @@
 		display: none;
 	}
 
+	  /* cat list */
+  
+	  .category-intro {
+	  	height: 580px;
+	  }
+
 }
 
 /* ===================== Mobiles below 399px =============================== */
 
 @media only screen and (max-width : 399px) {
+  
+  /* cat list */
+
+  .category-intro {
+  	height: 790px;
+  }
 
 }
