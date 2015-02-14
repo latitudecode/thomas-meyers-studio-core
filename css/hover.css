@@ -111,6 +111,7 @@ min-height: 100%;
 }
 
 .row-effect figure figcaption {
+	display: none; /* temporary */
 	padding: 2em;
 	color: #fff;
 	text-transform: uppercase;
@@ -124,6 +125,7 @@ min-height: 100%;
 	pointer-events: none;
 }
 
+/* 
 .row-effect figure figcaption,
 .row-effect figure figcaption > a {
 	position: absolute;
@@ -131,6 +133,8 @@ min-height: 100%;
 	left: 0;
 	width: 79%;
 }
+*/
+
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
