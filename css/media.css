@@ -325,11 +325,16 @@
 @media (min-width: 768px) {
 
 
+
 }
 
 /* ===================== Mobiles below 767px =============================== */
 
 @media (max-width: 767px) {
+
+	.media-entry-collage.fr, .media-entry-mosaic.fl {
+	width: 100%;
+	}
 
 }
 

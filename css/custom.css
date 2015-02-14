@@ -408,8 +408,7 @@ right: 6%;
 }
 
 .home-slider {
-	width: 100%;
-	border-bottom: 1px solid #f1dfd2;	
+	width: 100%;	
 }
 
 .slider-buttons {
@@ -423,8 +422,8 @@ right: 6%;
 li.title {
 text-align: center;
 padding: 20px;
-border-bottom: 1px solid black;
-
+border-bottom: 1px solid #f1dfd2;
+border-top: 1px solid #f1dfd2;
 }
 
 /* homepage */
@@ -451,12 +450,17 @@ width: 50%;
 .cat-img img {
 	margin: 0px auto;
 	width: 100%;
-	padding: 70px 0px;
 }
 
 .cat-section ul {
-	border-right: 1px solid;
+	border-right: 1px solid #f1dfd2;
 }
+
+
+figure.effect-hover.cat {
+margin: 60px 0px;
+}
+
 
 
 /* section - category selection */
