@@ -135,10 +135,6 @@ width: 29%;
 
 @media (min-width: 768px) and (max-width: 979px) {
 
-
-	.row-effect figure {
-	float: none;
-	}
 }
 
 /* ===================== tablets and mobile below 980px =============================== */
@@ -152,20 +148,12 @@ width: 29%;
   	height: auto;
   	margin-bottom: 50px;
   	}
-
-  		.row-effect figure {
-	float: none;
-	}
 }
 
 /* ===================== tablets and mobile below 979px =============================== */
 
 
 @media (max-width: 979px) {
-
-	.row-effect figure {
-	float: none;
-	}
 
 }
 
@@ -175,10 +163,6 @@ width: 29%;
   
 	.category-list .row .col-md-3 {
 		border-right: none;
-	}
-
-		.row-effect figure {
-	float: none;
 	}
 
 }
@@ -211,10 +195,6 @@ width: 29%;
 
 		.main-columns {
 		top: -50px;
-	}
-
-	.row-effect figure {
-	float: none;
 	}
 
 }
@@ -272,10 +252,6 @@ width: 29%;
 	.intro {
 		width: 80%;
 	}
-
-.row-effect figure {
-	float: none;
-}
 
 }
 
